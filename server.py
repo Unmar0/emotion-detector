@@ -4,7 +4,7 @@ Flask server for the Emotion Detector application.
 
 from flask import Flask, request, render_template
 from EmotionDetection import emotion_detector
-
+from EmotionDetection.emotion_detection import emotion_detector
 
 app = Flask("Emotion Detector")
 

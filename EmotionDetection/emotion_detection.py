@@ -3,7 +3,7 @@ Emotion detection module using Watson NLP embedded AI library.
 """
 
 import requests
-
+from EmotionDetection.emotion_detection import emotion_detector
 
 def fallback_emotion_detector(text_to_analyze):
     """
